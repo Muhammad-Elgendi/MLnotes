@@ -1,11 +1,57 @@
 # -*- coding: utf-8 -*-
 
 """
-Preprocessing phase
-what ?
-why ?
-how ?
+Data Preprocessing
+
+What is data preprocessing  ?
+
+Data preprocessing is a data mining technique which is used to
+transform the raw data in a useful and efficient format.
+
+Data preprocessing is an important step in the data mining process.
+The phrase "garbage in, garbage out" 
+is particularly applicable to data mining and machine learning projects. 
+
+Data preprocessing includes cleaning, Instance selection,
+normalization, transformation, feature extraction and
+selection, etc.
+The product of data preprocessing is the final training set.
+
+find more about Data preprocessing
+@https://www.geeksforgeeks.org/data-preprocessing-in-data-mining/
+
+How is data preprocessing is conducted for machine learning?
+Follow the following steps :-
+Step 1: Import the needed Libraries.
+Step 2: Import the Dataset.
+Step 3: Taking care of Missing Data in Dataset.
+Step 4: Encoding categorical data.
+Step 5: Splitting the Dataset into Training set and Test Set.
+Step 6: Feature Scaling.
+
+Why is data preprocessing important in machine learning ?
+
+Every dataset is different and poses unique challenges.
+It can contain unformatted real-world data which can be composed of :
+1-Inaccurate data (missing data)
+2-The presence of noisy data (erroneous data and outliers)
+3-Inconsistent data
+
+If there is much irrelevant and redundant information present or
+noisy and unreliable data,
+then knowledge discovery during the training phase is more difficult.
+
+
+Data pre-processing has a significant impact on
+the performance of supervised learning models 
+because unreliable samples probably lead to wrong outputs.
+
+so again always remember the phrase "garbage in, garbage out"
+
+find more
+@https://medium.com/naman-jain/importance-of-data-preprocessing-for-machine-learning-and-how-to-perform-it-74a351b5310d
 """
+
 
 """
 libraries
